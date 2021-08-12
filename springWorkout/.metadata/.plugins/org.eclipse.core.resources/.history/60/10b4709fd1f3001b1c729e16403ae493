@@ -1,0 +1,6 @@
+package com.javacourse.project.hibernateAndJpa.DataAccess;
+
+public interface ICityDal 
+{
+	
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a59fe19b14.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<!--Header kısmımızı oluşturduğumuz yer-->
+
+    <div class="header">
+        <div class="container">
+            <div class="header-navbar">
+                <a href="index.html" class=""><div class="header-logo"></div></a>
+                <div class="header-menu">
+                    <ul id="menu-items">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOVER</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                    <i class="fas fa-bars" id="menu-icon" onclick="menuToggle()"></i>
+                </div>
+            </div>
+        </div>   
+    </div>
+<!--Header kısmımızı bitirdiğimiz yer-->
+
+
+<!-- filmleri listelediğimiz Kısmımızı yapıyoruz -->
+<section id="movie">
+    <div class="movie">
+        <div class="movie-item animate1">
+            <img src="img/harryPotter.png" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate2">
+            <img src="img/lotr.jpg" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate3">
+            <img src="img/harryPotter.png" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate4">
+            <img src="img/lotr.jpg" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate5">
+            <img src="img/harryPotter.png" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate6">
+            <img src="img/lotr.jpg" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+        <div class="movie-item animate7">
+            <img src="img/harryPotter.png" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate8">
+            <img src="img/lotr.jpg" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+        <div class="movie-item animate9">
+            <img src="img/harryPotter.png" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+
+        <div class="movie-item animate10">
+            <img src="img/lotr.jpg" alt="">
+            <div class="overlay">
+                <i class="fas fa-info"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- movie Kısmımızı Bitiriyoruz-->     
+    
+
+<!--Contact Kısmına başlıyoruz-->
+<section id="contact">
+    <div class="contact">
+        <div class="container">
+            <div class="page-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-content">
+
+                <div class="contact-item anime-left">
+                    <i class="fas fa-user"></i>
+                    <p>Aziz Görkem Akpur</p>
+                    
+                </div>
+
+                <div class="contact-item anime-top">
+                    <i class="fas fa-phone"></i>
+                    <p>0543 123 45 **</p>
+                    <br>
+                    <p>0212 123 45 **</p>
+                </div>
+
+                <div class="contact-item anime-bottom">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                   
+                </div>
+
+                <div class="contact-item anime-right">
+                    <i class="fas fa-envelope-open"></i>
+                    <p>flowershop@flowershop.com</p>
+                    
+                </div>
+                 
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Kısmını bitiriyoruz-->
+
+
+<!--footer Kısmına başlıyoruz-->
+<footer id="footer">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="page-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="footer-copyright">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, velit.</p>
+                <br>
+            </div>
+            <nav class="footer-social">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-g animate1"></i></a>
+                        <a href="#"><i class="fab fa-twitter animate3"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f animate5"></i></a>
+                    </li>
+                </ul>
+                <div class="footer-copyright"><small>Copyright © 2021 Tüm Hakları Saklıdır.</small></div>
+            </nav>
+            
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!--footer Kısmını bitiriyoruz-->
+
+
+
+
+<script>
+    window.sr=ScrollReveal();
+
+    sr.reveal('.anime-left',{
+        origin:'left',
+        duration:1000,
+        distance:'15rem',
+        delay:200
+    })
+
+    sr.reveal('.anime-right',{
+        origin:'right',
+        duration:1000,
+        distance:'15rem',
+        delay:200
+    })
+
+    sr.reveal('.anime-top',{
+        origin:'top',
+        duration:1000,
+        distance:'15rem',
+        delay:200
+    })
+    sr.reveal('.anime-bottom',{
+        origin:'bottom',
+        duration:1000,
+        distance:'15rem',
+        delay:200
+    })
+    
+    
+    
+        
+
+
+        
+
+</script>
+
+
+
+<script>
+    ScrollReveal().reveal('.animate1',{delay:100});
+    ScrollReveal().reveal('.animate2',{delay:200});
+    ScrollReveal().reveal('.animate3',{delay:300});
+    ScrollReveal().reveal('.animate4',{delay:400});
+    ScrollReveal().reveal('.animate5',{delay:500});
+    ScrollReveal().reveal('.animate6',{delay:600});
+    ScrollReveal().reveal('.animate7',{delay:700});
+    ScrollReveal().reveal('.animate8',{delay:800});
+    ScrollReveal().reveal('.animate9',{delay:900});
+    ScrollReveal().reveal('.animate10',{delay:1000});
+</script>
+
+
+
+
+
+<script>
+    var menuItems=document.getElementById('menu-items');
+    menuItems.style.maxHeight="0px";
+
+
+    function menuToggle()
+    {
+        if(menuItems.style.maxHeight=="0px")
+        {
+            menuItems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px";
+        }
+    }
+
+</script>
+
+
+    <script>ScrollReveal().reveal('.headline');</script>
+</body>
+</html>

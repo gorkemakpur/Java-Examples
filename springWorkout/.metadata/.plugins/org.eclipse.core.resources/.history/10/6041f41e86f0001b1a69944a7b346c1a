@@ -1,0 +1,12 @@
+package springIntro;
+
+public class CustomerManager implements ICustomerDal {
+	
+	private ICustomerDal customerDal;
+	
+	public CustomerManager(ICustomerDal customerDal) {
+		this.customerDal = customerDal;
+	}
+
+	
+}
